@@ -1,0 +1,110 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(90deg, rgba(249, 30, 205, 0.851) 0%, rgb(255, 177, 113) 100%);
+    padding: 20px 0;
+}
+
+/* Estilo para el menú horizontal */
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaciado entre los botones */
+    margin-bottom: 20px; /* Separación del contenido principal */
+}
+
+.menu a button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background: rgba(255, 242, 225, 0.884);
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.menu a button:hover {
+    background: linear-gradient(90deg, rgb(183, 94, 255) 0%, rgb(255, 135, 145) 100%);
+}
+
+.menu a button:active {
+    transform: translate(0em, 0.2em);
+}
+
+
+
+.menu2 {
+    display: flex;
+    justify-content: center;
+    gap: 15px; /* Espaciado entre los botones */
+    margin-bottom: 20px; /* Separación del contenido principal */
+}
+
+.menu2 a button {
+    font-size: 25px;
+    padding: 10px 20px;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background: rgba(255, 242, 225, 0.884);
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.menu2 a button:hover {
+    background: linear-gradient(90deg, rgb(183, 94, 255) 0%, rgb(255, 135, 145) 100%);
+}
+
+.menu2 a button:active {
+    transform: translate(0em, 0.2em);
+}
+
+
+
+/* Estilo para el botón REGRESAR */
+.bottom-button {
+    margin-bottom: 20px;
+}
+
+.bottom-button a button {
+    font-size: 17px;
+    padding: 0.5em 2em;
+    border: transparent;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+    background: rgba(255, 242, 225, 0.884);
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+.bottom-button a button:hover {
+    background: linear-gradient(90deg, rgb(218, 173, 255) 0%, rgb(255, 127, 123) 100%);
+}
+
+.bottom-button a button:active {
+    transform: translate(0em, 0.2em);
+}
+
+.ti2{
+    font-size: 4em; /* Tamaño grande */
+    font-weight: bold; 
+    color: #ffffffd3; 
+    text-shadow: 2px 2px 4px rgba(255, 143, 143, 0.829); 
+    margin: 20px 0; 
+    text-align: center; 
+    font-family: 'Arial', sans-serif; 
+    
+}
